@@ -18,7 +18,7 @@ I received my M.Sc. degree from Beijing Institute of Technology in 2022, and the
 <ul>
   {% assign news_list = site.data.news | sort: "date" | reverse | slice: 0, 5 %}
   {% for item in news_list %}
-    <li>{{ item.date | date: "%Y-%m" }}: {{ item.title | markdownify | strip }}</li>
+    <li>{{ item.date | date: "%Y-%m" }}: {{ item.title }}</li>
   {% endfor %}
 </ul>
 
