@@ -5,7 +5,7 @@ main:
     conference: "IEEE Transactions on Medical Imaging, 2023"
     pdf: "https://doi.org/10.1109/TMI.2023.3297173"
     # code: "https://github.com/example/MPI-pretrain"
-    # image: "./assets/img/mpi_teaser.jpg"
+    image: "./assets/img/ProTSM.jpg"
     notes: Popular Article 
 
   - title: "HeGCL: Advance Self-Supervised Learning in Heterogeneous Graph"
