@@ -4,12 +4,14 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I’m **Gen Shi**, a Ph.D. candidate at Beihang University, advised by Prof. Jie Tian.  
+I received my M.Sc. degree from Beijing Institute of Technology in 2022, and the B.Eng. degree from Wuhan University of Technology in 2015.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- Medical image analysis  
+- Graph representation learning  
+- Magnetic particle imaging
 
 ## News
 
