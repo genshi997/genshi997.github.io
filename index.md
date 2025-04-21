@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 I’m **Gen Shi**, a Ph.D. candidate at Beihang University, advised by Prof. Jie Tian.  
-I received my M.Sc. degree from Beijing Institute of Technology in 2022, and the B.Eng. degree from Wuhan University of Technology in 2019.
+I received my M.Eng. degree from Beijing Institute of Technology in 2022, and the B.Eng. degree from Wuhan University of Technology in 2019.
 
 ## Research Interests
 
