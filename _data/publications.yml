@@ -32,8 +32,8 @@ main:
     conference: NeuroImage, 2021
     pdf: https://doi.org/10.1016/j.neuroimage.2021.118382
     # code: ""
-    # image: ./assets/img/self_construal.png
-    # notes: Published
+    image: "./assets/img/neuroimage.jpg"
+    # notes: Published 
 
   - title: "Content-Aware Distillation Network for Real-Time Magnetic Particle Imaging"
     authors: "<strong><u>Gen Shi</u></strong>, Lin Yin, Zhongwei Bian, Ziwei Chen, Yu An, Hui Hui, Jie Tian"
