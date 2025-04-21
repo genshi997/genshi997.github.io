@@ -23,10 +23,11 @@ I received my M.Eng. degree from Beijing Institute of Technology in 2022, and th
 </ul>
 
 {% include_relative _includes/publications.md %}
-## Selected Honors
 
+## Selected Honors
 <ul>
-  {% for item in site.data.honors %}
+  {% assign honors = site.data.honors | sort: "sort_key" | reverse %}
+  {% for item in honors %}
     <li><em>{{ item.date }}</em>: {{ item.content | strip }}</li>
   {% endfor %}
 </ul>
