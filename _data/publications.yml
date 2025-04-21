@@ -9,7 +9,7 @@ main:
     notes: Popular Article of TMI in 2023.12
 
   - title: "HeGCL: Advance Self-Supervised Learning in Heterogeneous Graph"
-    authors: "<strong><u>Gen Shi</u></strong>, Jian K. Liu, Xuesong Li"
+    authors: "<strong><u>Gen Shi</u></strong>, Yifan Zhu, Jian K. Liu, Xuesong Li"
     conference_short: "IEEE TNNLS"
     conference: "IEEE Transactions on Neural Networks and Learning Systems, 2023"
     pdf: "https://doi.org/10.1109/TNNLS.2023.3273255"
