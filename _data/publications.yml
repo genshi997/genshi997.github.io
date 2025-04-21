@@ -6,7 +6,7 @@ main:
     pdf: "https://doi.org/10.1109/TMI.2023.3297173"
     # code: "https://github.com/example/MPI-pretrain"
     image: "./assets/img/ProTSM.jpg"
-    notes: Popular Article 
+    notes: Popular Article of TMI in 2023.12
 
   - title: "HeGCL: Advance Self-Supervised Learning in Heterogeneous Graph"
     authors: "<strong><u>Gen Shi</u></strong>, Jian K. Liu, Xuesong Li"
@@ -14,7 +14,7 @@ main:
     conference: "IEEE Transactions on Neural Networks and Learning Systems, 2023"
     pdf: "https://doi.org/10.1109/TNNLS.2023.3273255"
     # code: ""
-    # image: "./assets/img/graph_teaser.png"
+    image: "./assets/img/HeGCL.jpg"
     # notes: "Oral Presentation"
 
   - title: "Benefit from Public Unlabeled Data: A Frangi Filter-based Pretraining Network for 3D Cerebrovascular Segmentation"
@@ -23,7 +23,7 @@ main:
     conference: Medical Image Analysis, 2025
     pdf: https://doi.org/10.1016/j.media.2024.103442
     # code: ""
-    # image: ./assets/img/cerebrovascular.png
+    image: "./assets/img/FFPN.jpg"
     # notes: Early Accept
 
   - title: "The Divided Brain: Functional Brain Asymmetry Underlying Self-Construal"
@@ -41,8 +41,8 @@ main:
     conference: IEEE Transactions on Instrumentation and Measurement, 2025
     pdf: https://doi.org/10.1109/TIM.2025.3535575
     # code: ""
-    # image: ./assets/img/mpi_distill.png
-    notes: Popular Article
+    image: "./assets/img/CAD_Net.jpg"
+    notes: Popular Article of TIM in 2025.02
 
   - title: "Are Nonimage Data Really Necessary for Disease Prediction With Graph Convolutional Networks?"
     authors: "<strong><u>Gen Shi</u></strong>, Yifan Zhu, Zhenshen Chen, Jinyan Liu, Xuesong Li"
@@ -50,7 +50,7 @@ main:
     conference: IEEE Transactions on Cognitive and Developmental Systems, 2023
     pdf: https://doi.org/10.1109/TCDS.2022.3152791
     # code: ""
-    # image: ./assets/img/tcds_gcn.png
+    image: "./assets/img/NonlocalGCN.jpg"
     # notes: Vol. 15, No. 1, pp. 252–260
 
   - title: "Contrastive Hierarchical Augmentation Learning for Modeling Cognitive and Multimodal Brain Network"
@@ -59,7 +59,7 @@ main:
     conference: IEEE Transactions on Computational Social Systems, 2024
     pdf: https://doi.org/10.1109/TCSS.2024.3402328
     # code: ""
-    # image: ./assets/img/tcss_contrastive.png
+    image: "./assets/img/BrainNet.jpg"
     # notes: In Press, 1–11
 
 
