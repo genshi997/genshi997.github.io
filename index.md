@@ -15,10 +15,12 @@ I received my M.Sc. degree from Beijing Institute of Technology in 2022, and the
 
 ## News
 
-- **[2024. 12]** One paper is accepted by MedIA.
-- **[2024. 12]** Funded by NSFC on Youth Basic Research Project (Ph.D. Student).
-- **[2024. 10]** One paper is accepted by IEEE TIM.
-- **[2023. 07]** One paper is accepted by IEEE TMI.
+<ul>
+  {% assign news_list = site.data.news | sort: "date" | reverse | slice: 0, 5 %}
+  {% for item in news_list %}
+    <li><strong>{{ item.date | date: "%Y.%m" }}</strong> {{ item.title }}</li>
+  {% endfor %}
+</ul>
 
 {% include_relative _includes/publications.md %}
 
