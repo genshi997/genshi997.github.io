@@ -1,21 +1,28 @@
-- date: 2024.12
+- sort_key: 2024-12
+  date: "2024.12"
   content: Funded by NSFC on Youth Basic Research Project (Ph.D. Student)
 
-- date: 2024.04
+- sort_key: 2024-04
+  date: "2024.04"
   content: Excellent Academic Innovation Achievement Award for Postgraduates at Beihang University
 
-- date: 2022.09
+- sort_key: 2022-09
+  date: "2022.09"
   content: Graduate Entrance Scholarship of Beihang University
 
-- date: 2022.06
+- sort_key: 2022-06
+  date: "2022.06"
   content: Excellent Graduate of Beijing (Master's Degree)
 
-- date: 2021.10
+- sort_key: 2021-10
+  date: "2021.10"
   content: National Scholarship for Postgraduate Students
 
-- date: 2017.11
+- sort_key: 2017-11
+  date: "2017.11"
   content: National Scholarship for Undergraduate Students
 
-- date: 2016.11
+- sort_key: 2016-11
+  date: "2016.11"
   content: National Scholarship for Undergraduate Students
 
