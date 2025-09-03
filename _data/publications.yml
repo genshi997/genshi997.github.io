@@ -62,5 +62,14 @@ main:
     image: "./assets/img/BrainNet.jpg"
     # notes: In Press, 1–11
 
+  - title: "Heterogeneous Graph-Based Multimodal Brain Network Learning"
+    authors: "<strong><u>Gen Shi</u></strong>, Yifan Zhu, Xinyue Lin, Quanming Yao, Xuesong Li"
+    conference_short: IEEE TKDE
+    conference: IEEE Transactions on Knowledge and Data Engineering, 2025
+    pdf: 10.1109/TKDE.2025.3569648
+    # code: ""
+    image: "./assets/img/HeBrainGnn.jpg"
+    # notes: In Press, 1–11
+
 
 
