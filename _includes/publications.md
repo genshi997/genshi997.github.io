@@ -34,7 +34,7 @@
 
           <div class="links">
             {% if link.conference_short %}
-              <abbr class="badge">{{ link.conference_short }}</abbr>
+              <span class="pub-badge">{{ link.conference_short }}</span>
             {% endif %}
 
             {% if link.pdf %}
