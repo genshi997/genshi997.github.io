@@ -1,6 +1,6 @@
 main:
   - title: "Phase-lag Based MPS/MPI Dual-mode Precise in vivo Temperature Imaging Technique"
-    authors: "Siao Lei, Wenxuan Zou, Yanjun Liu, Guanghui Li, <strong><u>Gen Shi</u></strong>, J. Li, Jie He, Guangxing Zhou, Yang Jing, Yu An, Jie Tian"
+    authors: "Siao Lei, Wenxuan Zou, Yanjun Liu, Guanghui Li, <strong><u>Gen Shi</u></strong>, Jiaqian Li, Jie He, Guangxing Zhou, Yang Jing, Yu An, Jie Tian"
     conference_short: "IEEE TMI"
     conference: "IEEE Transactions on Medical Imaging, 2026"
     pdf: "https://doi.org/10.1109/TMI.2026.3670844"
