@@ -6,6 +6,7 @@ main:
     pdf: "https://doi.org/10.1109/TMI.2023.3297173"
     # code: "https://github.com/example/MPI-pretrain"
     image: "./assets/img/ProTSM.jpg"
+    year: 2023
     notes: Popular Article of TMI in 2023.12
 
   - title: "HeGCL: Advance Self-Supervised Learning in Heterogeneous Graph"
@@ -15,6 +16,7 @@ main:
     pdf: "https://doi.org/10.1109/TNNLS.2023.3273255"
     # code: ""
     image: "./assets/img/HeGCL.jpg"
+    year: 2023
     # notes: "Oral Presentation"
 
   - title: "Benefit from Public Unlabeled Data: A Frangi Filter-based Pretraining Network for 3D Cerebrovascular Segmentation"
@@ -24,6 +26,7 @@ main:
     pdf: https://doi.org/10.1016/j.media.2024.103442
     # code: ""
     image: "./assets/img/FFPN.jpg"
+    year: 2025
     # notes: Early Accept
 
   - title: "The Divided Brain: Functional Brain Asymmetry Underlying Self-Construal"
@@ -33,6 +36,7 @@ main:
     pdf: https://doi.org/10.1016/j.neuroimage.2021.118382
     # code: ""
     image: "./assets/img/neuroimage.jpg"
+    year: 2021
     # notes: Published 
 
   - title: "Content-Aware Distillation Network for Real-Time Magnetic Particle Imaging"
@@ -42,6 +46,7 @@ main:
     pdf: https://doi.org/10.1109/TIM.2025.3535575
     # code: ""
     image: "./assets/img/CAD_Net.jpg"
+    year: 2025
     notes: Popular Article of TIM in 2025.02
 
   - title: "Are Nonimage Data Really Necessary for Disease Prediction With Graph Convolutional Networks?"
@@ -51,7 +56,7 @@ main:
     pdf: https://doi.org/10.1109/TCDS.2022.3152791
     # code: ""
     image: "./assets/img/NonlocalGCN.jpg"
-    # notes: Vol. 15, No. 1, pp. 252–260
+    year: 2023
 
   - title: "Contrastive Hierarchical Augmentation Learning for Modeling Cognitive and Multimodal Brain Network"
     authors: "<strong><u>Gen Shi</u></strong>, Yuxiang Yao, Yifan Zhu, Xinyue Lin, Lanxin Ji, Wenjin Liu, Xuesong Li"
@@ -60,6 +65,7 @@ main:
     pdf: https://doi.org/10.1109/TCSS.2024.3402328
     # code: ""
     image: "./assets/img/BrainNet.jpg"
+    year: 2024
     # notes: In Press, 1–11
 
   - title: "Heterogeneous Graph-Based Multimodal Brain Network Learning"
@@ -69,6 +75,7 @@ main:
     pdf: 10.1109/TKDE.2025.3569648
     # code: ""
     image: "./assets/img/HeBrainGnn.jpg"
+    year: 2025
     # notes: In Press, 1–11
 
 
