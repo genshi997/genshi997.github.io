@@ -1,51 +1,67 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px 10px;">Publications</h2>
 
 <div class="publications">
-<ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% assign pubs = site.data.publications.main | sort: "year" | reverse %}
+{% assign years = pubs | map: "year" | uniq %}
 
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
-</div>
-</li>
-<br>
+{% for year in years %}
+  <h3 style="margin-top: 28px; margin-bottom: 12px; font-size: 1.6rem; font-weight: 700; color: #222;">
+    {{ year }}
+  </h3>
 
+  <ol class="bibliography" style="margin-top: 0;">
+    {% for link in pubs %}
+      {% if link.year == year %}
+      <li style="margin-bottom: 16px;">
+        <div class="pub-row" style="display: block;">
+
+          <div class="title" style="font-weight: 600; margin-bottom: 4px;">
+            {% if link.pdf %}
+              <a href="{{ link.pdf }}" target="_blank">{{ link.title }}</a>
+            {% else %}
+              {{ link.title }}
+            {% endif %}
+          </div>
+
+          <div class="author" style="margin-bottom: 4px;">
+            {{ link.authors }}
+          </div>
+
+          <div class="periodical" style="margin-bottom: 6px;">
+            <em>{{ link.conference }}</em>
+          </div>
+
+          <div class="links">
+            {% if link.conference_short %}
+              <abbr class="badge" style="margin-right: 6px;">{{ link.conference_short }}</abbr>
+            {% endif %}
+
+            {% if link.pdf %}
+              <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+            {% endif %}
+            {% if link.code %}
+              <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+            {% endif %}
+            {% if link.page %}
+              <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+            {% endif %}
+            {% if link.bibtex %}
+              <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+            {% endif %}
+            {% if link.notes %}
+              <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
+            {% endif %}
+            {% if link.others %}
+              {{ link.others }}
+            {% endif %}
+          </div>
+
+        </div>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
 {% endfor %}
 
-</ol>
 </div>
