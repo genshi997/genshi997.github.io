@@ -1,4 +1,28 @@
 main:
+  - title: "Phase-lag Based MPS/MPI Dual-mode Precise in vivo Temperature Imaging Technique"
+    authors: "Siao Lei, Wenxuan Zou, Yanjun Liu, Guanghui Li, <strong><u>Gen Shi</u></strong>, J. Li, Jie He, Guangxing Zhou, Yang Jing, Yu An, Jie Tian"
+    conference_short: "IEEE TMI"
+    conference: "IEEE Transactions on Medical Imaging, 2026"
+    pdf: "https://doi.org/10.1109/TMI.2026.3670844"
+    # code: ""
+    year: 2026
+  
+  - title: "Joint frequency-image domain network for image restoration in magnetic particle imaging"
+    authors: "Haoran Zhang, Bo Zhang, <strong><u>Gen Shi</u></strong>, Yixiang Zhou, Guangxing Zhou, Zeyu Zhang, Jie Tian"
+    conference_short: "Phys Med Biol"
+    conference: "Physics in Medicine & Biology, 2025"
+    pdf: "https://doi.org/10.1088/1361-6560/ae1290"
+    # code: ""
+    year: 2025
+  
+  - title: "U-N2C: a dual memory-guided disentanglement framework for unsupervised system matrix denoising in magnetic particle imaging"
+    authors: "Wenxuan Zou, <strong><u>Gen Shi</u></strong>, Siao Lei, Guanghui Li, Guangxing Zhou, Yang Jing, Jie He, Zhenchao Tang, Yu An, Jie Tian"
+    conference_short: "IEEE TIP"
+    conference: "IEEE Transactions on Image Processing, 2025"
+    pdf: "https://doi.org/10.1109/TIP.2025.3564845"
+    # code: ""
+    year: 2025
+  
   - title: "Progressive Pretraining Network for 3D System Matrix Calibration in Magnetic Particle Imaging"
     authors: "<strong><u>Gen Shi</u></strong>, Lin Yin, Yu An, Guanghui Li, Liwen Zhang, Zhongwei Bian, Ziwei Chen, Haoran Zhang, Hui Hui, Jie Tian"
     conference_short: "IEEE TMI"
