@@ -1,4 +1,19 @@
 main:
+  - title: "Multimodal Structure-guided Diffusion Model for Magnetic Particle Imaging Reconstruction"
+    authors: "<strong><u>Gen Shi</u></strong>, Wenxuan Zou, Jie He, Siao Lei, Zining Liu, Hui Zhang, Jie Tian"
+    conference_short: "MedIA"
+    conference: "Medical Image Analysis, 2026"
+    pdf: "https://doi.org/10.1016/j.media.2026.104086"
+    # code: ""
+    year: 2026
+
+  - title: "COMMA: Coordinate-aware Modulated Mamba Network for 3D Dispersed Vessel Segmentation"
+    authors: "<strong><u>Gen Shi</u></strong>, Hui Zhang, Jie Tian"
+    conference_short: "IEEE TIP"
+    conference: "IEEE Transactions on Image Processing, 2026"
+    pdf: "https://doi.org/10.1109/TIP.2026.3682121"
+    year: 2026
+    
   - title: "Phase-lag Based MPS/MPI Dual-mode Precise in vivo Temperature Imaging Technique"
     authors: "Siao Lei, Wenxuan Zou, Yanjun Liu, Guanghui Li, <strong><u>Gen Shi</u></strong>, Jiaqian Li, Jie He, Guangxing Zhou, Yang Jing, Yu An, Jie Tian"
     conference_short: "IEEE TMI"
