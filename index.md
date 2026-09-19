@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I’m **Gen Shi**, a Ph.D. candidate at Beihang University, advised by Prof. Jie Tian.  
+I’m **Gen Shi**, a postdoctoral researcher at Huazhong University of Science and Technology, working with Prof. Zhigang Zeng. I received my Ph.D. degree from Beihang University in 2026.
 I received my M.Eng. degree from Beijing Institute of Technology in 2022, and the B.Eng. degree from Wuhan University of Technology in 2019.
 
 ## Research Interests
@@ -12,6 +12,7 @@ I received my M.Eng. degree from Beijing Institute of Technology in 2022, and th
 - Medical image analysis  
 - Graph representation learning  
 - Magnetic particle imaging
+- World model
 
 ## News
 
